@@ -1,0 +1,143 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-input-block input {
+    width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #1C82FF;
+    border-radius: 12px;
+    color: #000;
+    font-size: 20px;
+    padding-left: 25px;
+    outline: none;
+    transition-duration: .4s;
+}
+
+.main-input-block {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.main-input-block button {
+    width: 160px;
+    height: 45px;
+    background: #1C82FF;
+    border-radius: 70px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.main-input-textws {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.main-input-text-blockerback {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    text-align: center;
+    padding-top: 25px;
+    display: none;
+    background: #1C82FF;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.main-input-textw {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.main-input-texth {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.main-input-texts {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.none {
+    display: block;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.blocker {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #1C82FF;
+    border-radius: 17px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.blocker:nth-child(1) {
+    background: url('https://soliloquywp.com/wp-content/uploads/2019/04/nb_esc_cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocker:nth-child(2) {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4b1MJYYzvgZMISnHCY0iJp9kKrjskARR9PZ8qDr3cZiqq_aMGlMWUIFVHp5hbEvmqwG4&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocker:nth-child(3) {
+    background: url('https://soliloquywp.com/wp-content/uploads/2018/05/soliloquy-customization-featured.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocker:nth-child(4) {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjG5akJ2dUZ2TnxO80Y-XX0nVOAJdsBt6gRUBRRcma6M_gF8kfh9vZLnGMCyU68rO7GhQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocker-button {
+    margin-top: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+.blocker-button button {
+    width: 160px;
+    height: 45px;
+    background: #1C82FF;
+    border-radius: 70px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.go-none {
+    display: none;
+}
+
+.slider {
+    display: flex;
+}
